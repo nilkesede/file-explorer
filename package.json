@@ -1,0 +1,21 @@
+{
+  "name": "file-server",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src"
+  },
+  "dependencies": {
+    "express": "4.16.1"
+  },
+  "devDependencies": {
+    "eslint": "4.8.0",
+    "eslint-config-xo-space": "0.16.0",
+    "eslint-plugin-unicorn": "2.1.2"
+  },
+  "engines" : {
+    "node" : "8.6.0",
+    "npm" : "5.3.0"
+  }
+}
