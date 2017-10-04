@@ -4,18 +4,24 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src"
+    "start": "nodemon src"
   },
   "dependencies": {
-    "express": "4.16.1"
+    "body-parser": "1.18.2",
+    "feathers": "2.2.2",
+    "feathers-errors": "2.9.2",
+    "feathers-memory": "1.2.1",
+    "feathers-rest": "1.8.0",
+    "feathers-socketio": "2.0.0"
   },
   "devDependencies": {
     "eslint": "4.8.0",
     "eslint-config-xo-space": "0.16.0",
-    "eslint-plugin-unicorn": "2.1.2"
+    "eslint-plugin-unicorn": "2.1.2",
+    "nodemon": "1.12.1"
   },
-  "engines" : {
-    "node" : "8.6.0",
-    "npm" : "5.3.0"
+  "engines": {
+    "node": "8.6.0",
+    "npm": "5.3.0"
   }
 }
